@@ -1,4 +1,4 @@
-# Digital Land boundaries collection
+# Digital Land boundary collection
 A collection of boundaries by ONS code
 
 # Licence

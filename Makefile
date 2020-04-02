@@ -3,6 +3,8 @@
 init:
 	npm install
 
-run:
+collect:
 	npm run collect
+
+split:
 	npm run split
