@@ -37,4 +37,5 @@ jobs:
     - name: Commit files
       run: |
         git add collection
+        git add index
         git diff --quiet && git diff --staged --quiet || (git commit -m "Commit files for $(date +%F)"; git push origin master)
