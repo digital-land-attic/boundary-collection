@@ -1,6 +1,16 @@
 # Digital Land boundary collection
 A collection of boundaries by ONS code
 
+## Updating the collection
+
+Requires [node](https://nodejs.org/) >= 10.x
+
+Update by running:
+
+    $ make init
+    $ make collect
+    $ make split
+
 # Licence
 The software in this project is open source and covered by LICENSE file.
 
