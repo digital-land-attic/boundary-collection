@@ -22,7 +22,7 @@ datasets.map(item => {
 
     index.push({
       'statistical-geography': filename,
-      'boundary-url': makeBoundaryUrl(filename)
+      'boundary': makeBoundaryUrl(filename)
     })
 
     fs.mkdirSync(`./collection/${item}/${filename}`, { recursive: true })
@@ -33,7 +33,7 @@ datasets.map(item => {
     path: `index/${item}-boundary.csv`,
     header: [
       { id: 'statistical-geography', title: 'statistical-geography' },
-      { id: 'boundary-url', title: 'boundary-url' }
+      { id: 'boundary', title: 'boundary' }
     ]
   })
 
