@@ -1,4 +1,6 @@
-.PHONY: init
+.PHONY: init collect split
+
+all:	collect split
 
 init:
 	npm install
